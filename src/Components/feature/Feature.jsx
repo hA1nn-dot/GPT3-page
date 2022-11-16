@@ -8,7 +8,7 @@ function Feature({ title, text }) {
         <h1>{title}</h1>
       </div>
       <div className='gpt3__features-container_feature-text'>
-        {text}
+        <p>{text}</p>
       </div>
     </div>
   )
